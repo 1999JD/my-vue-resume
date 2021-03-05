@@ -1,0 +1,35 @@
+@import "../assets/styles/reset";
+@import "~bootstrap/scss/functions";
+@import "../assets/styles/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/bootstrap";
+
+
+
+// Tint a color: mix a color with white
+@function tint-color($color, $weight) {
+  @return mix(white, $color, $weight);
+}
+
+.bg-secondary {
+
+  background: tint-color($primary, 50%) !important;
+
+}
+
+.bg-third {
+
+  background: tint-color($primary, 80%) !important;
+
+}
+.btn:hover{
+  text-decoration-line: underline !important;
+}
+a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-primary:focus{
+  background: $primary !important;
+}
+
+.point {
+  color: tint-color($primary, 20%);
+  font-weight: bold;
+}
