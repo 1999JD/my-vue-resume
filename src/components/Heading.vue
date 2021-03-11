@@ -1,7 +1,5 @@
 <template>
-  <nav class="navbar bg-primary text-light">
-    <h2 class="mb-0"><slot></slot></h2>
-  </nav>
+  <h2 class="mb-0 navbar bg-primary text-light"><slot></slot></h2>
 </template>
 <script>
 export default {
