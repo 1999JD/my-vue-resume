@@ -2,7 +2,9 @@
   <div class="js-city mb-4">
     <ul class="col-12 d-flex mb-4 py-2 bg-secondary flex-wrap">
       <li v-for="mission in missions" :key="mission" class="mx-3">
-        <a class="text-muted" :href="mission.missionHref" target="_blank">{{mission.missionName}}</a>
+        <a class="text-muted" :href="mission.missionHref" target="_blank">{{
+          mission.missionName
+        }}</a>
       </li>
     </ul>
     <swiper
@@ -12,7 +14,7 @@
       :scrollbar="{ draggable: true }"
     >
       <swiper-slide v-for="mission in missions" :key="mission"
-        ><img :src='mission.missionImg' />
+        ><img class="w=100" :src="mission.missionImg" />
       </swiper-slide>
     </swiper>
   </div>
@@ -98,8 +100,16 @@ export default {
 <style lang="scss">
 .js-city {
   img {
-    width: 600px;
-    height: 350px;
+    width: 200px;
+    height: 117px;
+    @media (min-width: 576px) {
+      width: 300px;
+      height: 175px;
+    }
+    @media (min-width: 720px) {
+      width: 600px;
+      height: 350px;
+    }
   }
 }
 </style>

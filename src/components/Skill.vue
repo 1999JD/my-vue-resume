@@ -1,6 +1,6 @@
 <template>
   <ul class="skill card-group mb-0">
-    <li class="card bg-third">
+    <li class="card col-12 col-md-6 col-lg-3 bg-third">
       <div class="card-body">
         <h3 class="card-title">網頁切版</h3>
         <ul class="card-text">
@@ -14,7 +14,7 @@
         </a>
       </div>
     </li>
-    <li class="card bg-secondary">
+    <li class="card col-12 col-md-6 col-lg-3 bg-secondary">
       <div class="card-body">
         <h3 class="card-title">JavaScript</h3>
         <ul class="card-text">
@@ -29,7 +29,7 @@
         </a>
       </div>
     </li>
-    <li class="card bg-third">
+    <li class="card col-12 col-md-6 col-lg-3 bg-third">
       <div class="card-body">
         <h3 class="card-title">後端程式</h3>
         <p class="card-text">
@@ -40,7 +40,7 @@
         </a>
       </div>
     </li>
-    <li class="card bg-secondary">
+    <li class="card col-12 col-md-6 col-lg-3 bg-secondary">
       <div class="card-body">
         <h3 class="card-title">其餘</h3>
         <ul class="card-text">

@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4">
+  <div class="p-4 border">
     <h3 class="mb-4 education-title">政治大學, 學士學位, 2017 ~ 2021 <br> 民族系/數位內容與科技學士學位學程</h3>
     <p>政大106級生，進入民族系，培養<span class="point">社會科學</span>的研究精神與方法；</p>
     <p>

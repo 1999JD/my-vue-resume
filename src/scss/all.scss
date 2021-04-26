@@ -22,14 +22,26 @@
   background: tint-color($primary, 80%) !important;
 
 }
-.btn:hover{
+
+.btn:hover {
   text-decoration-line: underline !important;
 }
-a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-primary:focus{
+
+a.bg-primary:hover,
+a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
   background: $primary !important;
 }
 
 .point {
   color: tint-color($primary, 20%);
   font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  .card-group>.card {
+    flex: none;
+    margin-bottom: 0;
+  }
 }

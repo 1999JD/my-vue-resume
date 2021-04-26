@@ -2,8 +2,6 @@ import {
     createApp
 } from 'vue'
 import App from './App.vue'
-import router from './router'
-import store from './store'
 import './scss/all.scss'
 
 import {library} from '@fortawesome/fontawesome-svg-core'
@@ -15,4 +13,4 @@ library.add(faFontAwesome,faGithub,faGoogle,faFacebook,faMedium)
 
 
 
-createApp(App).use(store).use(router).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
+createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
