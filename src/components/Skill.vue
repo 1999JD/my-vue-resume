@@ -22,7 +22,6 @@
           <li>Google Map API</li>
           <li>Fetch API、XMLHttpRequest</li>
           <li>Vue components</li>
-          <li>Vue-Router 和 Vuex</li>
         </ul>
         <a target="_blank" href="https://1999jd.github.io/js-UGcity/" class="card-text">
           <small class="text-muted">點我看作品</small>
