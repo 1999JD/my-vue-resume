@@ -4,7 +4,10 @@
 @import "~bootstrap/scss/mixins";
 @import "~bootstrap/scss/bootstrap";
 
-
+@import "swiper/swiper.scss";
+@import "swiper/components/navigation/navigation.scss";
+@import "swiper/components/pagination/pagination.scss";
+@import "swiper/components/effect-fade/effect-fade.scss";
 
 // Tint a color: mix a color with white
 @function tint-color($color, $weight) {

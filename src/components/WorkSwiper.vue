@@ -31,10 +31,7 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, EffectFade]);
 
-import "swiper/swiper.scss";
-import "swiper/components/navigation/navigation.scss";
-import "swiper/components/pagination/pagination.scss";
-import "swiper/components/effect-fade/effect-fade.scss";
+
 
 export default {
   name: "MyWorkSwiper",
@@ -42,7 +39,6 @@ export default {
     Swiper,
     SwiperSlide,
   },
-  methods: {},
   data() {
     return {
       missions: [
@@ -112,5 +108,4 @@ export default {
     }
   }
 }
-
 </style>
